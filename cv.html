@@ -1,0 +1,291 @@
+<!-- Standard HTML boilerplate -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+
+    <style>
+        body {
+            /* A nice, readable font */
+            font-family: 'Times New Roman', Times, serif;
+            /* Add some margin to prevent content touching the edges */
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        /* Remove some annoying margins from headings */
+        h1,
+        h2 {
+            margin-bottom: 0;
+        }
+
+        /* Add spacing between sections */
+        section {
+            margin: 2rem 0;
+        }
+
+        /* Style for job entries */
+        .job {
+            margin: 1rem 0;
+        }
+
+        .job-header {
+            margin-bottom: 0.5rem;
+        }
+
+        hr {
+            margin: 0.5rem 0;
+        }
+
+        /* Add paragraph indentation */
+        p {
+            text-indent: 2rem;
+        }
+
+        /* Remove indentation from centered elements */
+        p[align="center"] {
+            text-indent: 0;
+        }
+
+        /* Remove indentation from job headers */
+        .job-header {
+            text-indent: 0;
+        }
+
+        /* Style for bullet lists */
+        ul {
+            list-style-type: disc;
+            margin: 0.5rem 0;
+            padding-left: 3rem;
+        }
+
+        /* Remove text indentation from list items */
+        li {
+            text-indent: 0;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Style for links */
+        a {
+            color: #000;
+            text-decoration: none;
+            border-bottom: 1px dotted #000;
+        }
+
+        a:hover {
+            border-bottom: 1px solid #000;
+        }
+
+        /* Adjust h2 size */
+        h2 {
+            font-size: 1.3rem;
+            margin-top: 1rem;
+        }
+
+        /* Add this to your existing styles */
+        .highlight {
+            color: #FF6347;
+            /* Tomato color */
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1 align="center">Mustafa Bugra YILDIZ</h1>
+        <p align="center"><b>Digital Systems Architect</b></p>
+        <p align="center"><i>Building Systems That Matter</i></p>
+    </section>
+
+    <section>
+        <p>
+            I began my tech journey at 16, building systems for local businesses in Ankara. By 20, from the 16th floor
+            of an ISP, I was architecting solutions that would shape my career. Today, I design digital solutions that
+            power international businesses. My experience spans from <span class="highlight">fighting hyperinflation
+                with smart pricing systems</span>
+            to <span class="highlight">building real-time analytics that doubled company revenues</span>. I don't just
+            write code – I craft digital
+            ecosystems that scale and evolve.
+        </p>
+    </section>
+
+    <section>
+        <h2>Areas of Focus</h2>
+        <hr>
+        <ul>
+            <li><strong>Event Processing:</strong> Building systems that handle millions of daily events with sub-second
+                latency</li>
+            <li><strong>Financial Systems:</strong> Designing secure, compliant platforms for payment processing and
+                reporting</li>
+            <li><strong>E-commerce:</strong> Scaling marketplace solutions and merchant tooling for high-volume
+                platforms</li>
+            <li><strong>Real-time Analytics:</strong> Creating actionable insights from large-scale data streams</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <hr>
+
+        <div class="job">
+            <p class="job-header">
+                <strong>Digital Solutions Architect</strong> | Self-employed | 2022 - Present
+            </p>
+            <p>Providing specialized technical solutions for multiple international companies under strict
+                confidentiality agreements. Working with clients across FinTech (payment systems, trading platforms),
+                E-commerce (marketplace solutions), and Enterprise (real-time analytics), delivering scalable solutions
+                that drive business growth across three continents.</p>
+            <ul>
+                <li>Developed analytics solutions processing ~10M daily events for international clients</li>
+                <li>Built financial reporting systems handling ~$120M in annual transactions</li>
+                <li>Improved transaction processing speeds by <span class="highlight">two orders of magnitude</span>
+                    through architecture optimization</li>
+                <li>Successfully delivered 4 major projects (~20K ELOC each) while maintaining 100% client
+                    confidentiality</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <p class="job-header">
+                <strong>Software Architect</strong> | Hepsiburada (Turkey's Amazon) | 2020 - 2022
+            </p>
+            <p>First role at a major tech company, joining during a pivotal time of market competition and regulatory
+                changes. Hepsiburada is Turkey's leading e-commerce platform ($2B+ market cap), serving millions of
+                customers
+                with a vast network of merchants across the country. The platform handles everything from electronics to
+                groceries, competing directly with global retail giants.</p>
+            <ul>
+                <li>Created the company's first merchant tools from scratch, serving ~250K active sellers</li>
+                <li>Built a smart pricing system that enabled regulatory-compliant negative price adjustments across
+                    50%+ of platform products during hyperinflation</li>
+                <li>Designed an analytics platform processing 10M+ daily customer interactions</li>
+                <li><span class="highlight">Doubled merchant sales across three quarters</span>, contributing to $1B+ in
+                    annual GMV</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <p class="job-header">
+                <strong>Infrastructure Engineer</strong> | KazanBelNet (High-rise ISP) | 2019 - 2020
+            </p>
+            <p>A local Internet Service Provider with ambitious plans to modernize their infrastructure. Operating from
+                the 16th floor of a high-rise building in Ankara, KazanBelNet aimed to provide faster, more reliable
+                internet services to the surrounding business district.</p>
+            <ul>
+                <li>Led a three-person team managing physical servers on the 16th floor</li>
+                <li>Built full-stack monitoring solutions that tracked 100+ network devices and improved response time
+                    to outages by 60%</li>
+                <li>Advised on infrastructure decisions that reduced operational costs by 30% before company downsizing
+                </li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <p class="job-header">
+                <strong>Freelance Developer</strong> | Self-employed | Early Career (2012 - 2018)
+            </p>
+            <p>
+                Started my coding journey at 16, partnering with a fellow teenage developer to build solutions for our
+                local community. We were young, ambitious, and eager to prove ourselves. Between high school classes, we
+                crafted ordering systems for neighborhood cafes, built inventory management tools for small shops, and
+                designed websites for local businesses. These early projects, though simple by today's standards, taught
+                me the
+                fundamentals of solving real-world problems with code.
+            </p>
+            <p>
+                Looking back, we were learning as we went, figuring things out through trial and error. But the local
+                business community was incredibly supportive, giving us chances to prove ourselves. The income from
+                these projects (around $2500 in 2018) enabled us to upgrade from basic laptops to proper development
+                machines,
+                fueling our passion further. What started as teenage curiosity evolved into a clear career path, shaped
+                by
+                the trust of our first 15+ clients and over 20 successful projects.
+            </p>
+            <p>
+                Thank you, Ankara, for believing in two young developers with big dreams.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Professional Values</h2>
+        <hr>
+        <p>
+            <strong>Why does this section exist?</strong> Technical skills and experience are only part of the story.
+            These values guide how I approach problems,
+            work with teams, and craft solutions. They reflect lessons learned from both successes and failures
+            throughout my journey.
+        </p>
+        <ul>
+            <li><strong>Simplicity First:</strong> I believe the best solutions are often the simplest ones. Complex
+                systems should be built from simple, well-understood components.</li>
+            <li><strong>Practical Impact:</strong> I focus on delivering real business value rather than chasing
+                technical perfection. The best code is the one that solves actual problems.</li>
+            <li><strong>Code Elimination:</strong> Sometimes the best solution is no code at all. I've saved projects
+                months of development by identifying existing solutions or simplifying requirements.</li>
+            <li><strong>Continuous Evolution:</strong> Systems should be planned to evolve. I build for change, not for
+                permanence.</li>
+            <li><strong>Knowledge Sharing:</strong> Just as the Ankara community supported my early career, I believe in
+                giving back through mentorship and community contribution.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Technical Portfolio</h2>
+        <hr>
+        <p>
+            <strong>Notice:</strong> While I enjoy working with these technologies, I'm not bound by them. I can adapt
+            to and
+            learn new technologies as projects and challenges require.
+        </p>
+        <ul>
+            <li><strong>Core:</strong> TypeScript, Python, Go</li>
+            <li><strong>Storage & Caching:</strong> PostgreSQL, MongoDB, Redis</li>
+            <li><strong>Analytics & Events:</strong> Druid, Kafka, RabbitMQ</li>
+            <li><strong>Cloud & DevOps:</strong> AWS, Cloudflare, Docker, Kubernetes</li>
+            <li><strong>Environment:</strong> Git, Linux/Unix, Vim, Shell</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Open Source & Community</h2>
+        <hr>
+        <ul>
+            <li><strong>findmentor.network</strong> - <a href="https://findmentor.network">Contributed to platform
+                    connecting mentors with mentees in tech</a></li>
+            <li><strong>ProgrammingBuddies</strong> - <a href="https://reddit.com/r/ProgrammingBuddies">Helped develop
+                    the subreddit's community website</a></li>
+            <li><strong>Cyber-Warrior TR</strong> - Early contributor to Turkey's prominent cybersecurity community
+                forum</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Languages</h2>
+        <hr>
+        <p>
+            Turkish (Native), English (Fluent)
+        </p>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <hr>
+        <ul>
+            <li><strong>Email:</strong> <a
+                    href="mailto:mustafa.bugra.yildiz@icloud.com">mustafa.bugra.yildiz@icloud.com</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mustafa-buğra-yıldız-1a4113341">Mustafa
+                    Buğra YILDIZ</a></li>
+            <li><strong>GitHub:</strong> <a
+                    href="https://github.com/mustafa-bugra-yildiz">github.com/mustafa-bugra-yildiz</a></li>
+            <li><strong>Blog:</strong> <a href="https://mby.bearblog.dev">mby.bearblog.dev</a></li>
+        </ul>
+    </section>
+</body>
+
+</html>
